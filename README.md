@@ -60,7 +60,7 @@ Dans votre home directory,  faire
 Valider les parametres par defaut en tapant enter a chaque etape 
 sans passphrase  
 Et  
-```ssh-copy-id centos@<remote_id_address>```  
+```ssh-copy-id ubuntu@<remote_id_address>```  
 
 ## Installation de VirtualEnv Python et faire des Tests avec les Ad-Hoc commandes  
 Dans votre home directory faire un git clone de https://github.com/<votre_repo>/ansible-examples.git

@@ -1,5 +1,5 @@
 ---
-- name: Test Ping
+- name: Test Ping   simple
   hosts: all
   tasks:
     - name: Test module ping
