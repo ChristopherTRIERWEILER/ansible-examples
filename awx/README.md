@@ -2,7 +2,7 @@
 
 ## install AWX version using tar.gz file
 ```shell
-sudo yum install git wget
+sudo apt install git wget
 wget https://github.com/ansible/awx/archive/17.1.0.tar.gz
 tar -zxvf 17.1.0.tar.gz
 cd awx-17.1.0
@@ -49,6 +49,22 @@ source /var/lib/awx/venv/ansible/bin/activate
 (ansible) bash-4.4# pip install natsort
 exit
 ```
+## for ubuntu
+ cd 
+ deactivate 
+ sudo apt install git wget
+ wget https://github.com/ansible/awx/archive/17.1.0.tar.gz
+ tar -zxvf 17.1.0.tar.gz
+ cd awx-17.1.0/
+ cd installer/
+ python3 -m venv awx
+ source awx/bin/activate
+ pip3 install wheel
+ pip3 install ansible
+ pip3 install docker
+ pip3 install docker-compose
+ vi vars.yml
+ ansible-playbook -i inventory install.yml -e @vars.yml
 
 
 

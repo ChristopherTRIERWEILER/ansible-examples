@@ -3,7 +3,8 @@
   hosts: all
   become: true
   vars:
-      text_message: " Bonjour AWX"
+      text_message: " {{hostvars['target1']['ansible_host']}}"
+      my_name: "Herve"
   tasks:
     - name: copy template file
       template:
