@@ -23,16 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c06466ed-1121-4281-9358-dac240b4e14d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mise_a_jour_achat/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/ansible.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_facts_using_assert.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible_facts_using_assert.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/awx/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/awx/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory_children" beforeDir="false" afterPath="$PROJECT_DIR$/inventory_children" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/motd.yml" beforeDir="false" afterPath="$PROJECT_DIR$/motd.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime_inventory_additions.yml" beforeDir="false" afterPath="$PROJECT_DIR$/runtime_inventory_additions.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/motd.j2" beforeDir="false" afterPath="$PROJECT_DIR$/templates/motd.j2" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +139,7 @@
       <workItem from="1631082186329" duration="4726000" />
       <workItem from="1631088964250" duration="1003000" />
       <workItem from="1631091460457" duration="3852000" />
-      <workItem from="1631168710451" duration="4686000" />
+      <workItem from="1631168710451" duration="6920000" />
     </task>
     <task id="LOCAL-00001" summary="minor changes">
       <created>1591282108822</created>
@@ -276,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630931837147</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="j'ai change le ping">
+      <created>1631176452572</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1631176452572</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
