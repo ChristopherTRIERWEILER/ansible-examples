@@ -22,11 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c06466ed-1121-4281-9358-dac240b4e14d" name="Default Changelist" comment="j'ai change le ping">
+    <list default="true" id="c06466ed-1121-4281-9358-dac240b4e14d" name="Default Changelist" comment="change">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory" beforeDir="false" afterPath="$PROJECT_DIR$/inventory" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory_children" beforeDir="false" afterPath="$PROJECT_DIR$/inventory_children" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime_inventory_additions.yml" beforeDir="false" afterPath="$PROJECT_DIR$/runtime_inventory_additions.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -312,7 +309,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="modified alpine container" />
     <MESSAGE value="modified alpine container using port 22" />
     <MESSAGE value="Added propagate ssh using delagate_to" />
     <MESSAGE value="Added propagate ssh using delegate_to" />
@@ -337,6 +333,7 @@
     <MESSAGE value="change local to python3" />
     <MESSAGE value="Added awx" />
     <MESSAGE value="j'ai change le ping" />
-    <option name="LAST_COMMIT_MESSAGE" value="j'ai change le ping" />
+    <MESSAGE value="change" />
+    <option name="LAST_COMMIT_MESSAGE" value="change" />
   </component>
 </project>
