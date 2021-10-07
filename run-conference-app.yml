@@ -1,0 +1,20 @@
+---
+- name: Install Jenkins CI/CD for conference app
+  hosts: all
+  tasks:
+    - name: Docker test exists
+      shell: docker ps --all --quiet --filter=name="conference-test"
+      register: conference_id
+    - name: Delete container if exist
+      shell: docker rm -f conference-test
+      when: conference_id.stdout != ""
+    - name: Docker image exists
+      shell:  docker images | grep 'conference-app'
+      register: image
+      ignore_errors: yes
+    - name: Delete image if exist
+      shell:  docker rmi -f  $(docker images |grep 'conference-app')
+      when: image.stdout != ""
+      ignore_errors: yes
+    - name: Start test container
+      shell: docker run -d --name conference-test -p 10100:8080 chris993/conference-app
